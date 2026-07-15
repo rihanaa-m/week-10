@@ -30,16 +30,13 @@ ENV/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# Data files (excluding data directory)
-**/*.csv
-!data/key_events_oil_prices.csv
-!data/brent_oil_prices_sample.csv
-!data/BrentOilPrices.csv
+# Data files (excluding specific data files)
+data/BrentOilPrices.csv
+data/brent_oil_prices_sample.csv
 **/*.xlsx
 **/*.json
 !requirements.txt
-
-# Plot files
+!data/key_events_oil_prices.csv
 !plots/*.png
 
 # IDE
